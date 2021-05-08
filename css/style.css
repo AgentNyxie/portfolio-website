@@ -70,3 +70,31 @@ a:active
 {
   color: rgba(0,159,253,0.6);
 }
+
+.button {
+  display: inline-block;
+  background-color: rgba(0,159,253,1);
+  color: #ffffff;
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid rgba(0,159,253,1);
+  transition: 0.2s opacity;
+}
+
+.button:hover
+{
+  opacity: 0.8;
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.button:activ
+{
+  rgba(0,159,253,0.6)
+}
+
+.button:visited
+{
+  color: #ffffff;
+}
