@@ -98,3 +98,22 @@ a:active
 {
   color: #ffffff;
 }
+
+.button.contact {
+  background-color: #ffffff;
+  color: rgba(0,159,253,1);
+  border: 2px solid rgba(0,159,253,1);
+}
+
+.button.contact:hover
+{
+  background-color: rgba(0,159,253,1);
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.button.contact:activ
+{
+  background-color: rgba(0,159,253,0.6);
+  color: #ffffff;
+}
