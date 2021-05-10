@@ -204,3 +204,11 @@ nav > ul > li > a:active
 {
   color: rgba(0,159,253,1);
 }
+
+#hero-section
+{
+  background-color:   background-color: rgba(0,159,253,0.1);
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
