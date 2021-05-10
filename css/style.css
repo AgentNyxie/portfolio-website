@@ -170,6 +170,12 @@ a:active
   max-width: 250px;
 }
 
+nav
+{
+  display: inline-block;
+  width: 100%;
+}
+
 nav > ul > li > a
 {
   padding: 0 15px;
