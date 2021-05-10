@@ -137,8 +137,8 @@ a:active
 
 .hero-section
 {
-  background-color: rgba(4,67,137,1);
-  color: #ffffff;
+  background-color: rgba(0,159,253,0.1);
+  color: rgba(4,67,137,1);
 }
 
 .contact
