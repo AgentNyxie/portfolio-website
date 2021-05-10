@@ -148,6 +148,13 @@ a:active
   background-color: rgba(4,67,137,1);
   color: #ffffff;
 }
+
+/* Layout styling */
+.container
+{
+  padding: 0 15px;
+}
+
 nav > ul > li > a
 {
   padding: 0 15px;
