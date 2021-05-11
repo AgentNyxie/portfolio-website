@@ -16,8 +16,8 @@ header
   background-color: rgba(0,159,253,0.1);
   text-align: center;
   padding: 10px 0;
-  position: fixed
-  width: 100%
+  position: fixed;
+  width: 100%;
   -webkit-box-shadow: 3px 3px 19px 0px rgba(50, 50, 50, 0.45);
   -moz-box-shadow:    3px 3px 19px 0px rgba(50, 50, 50, 0.45);
   box-shadow:         3px 3px 19px 0px rgba(50, 50, 50, 0.45);
