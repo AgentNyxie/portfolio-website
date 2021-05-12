@@ -326,3 +326,10 @@ Extra-large devices (1920px or larger)
 {
 
 }
+
+[class*="col-"]
+{
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
