@@ -227,6 +227,11 @@ nav > ul > li > a:active
   width: 100%;
 }
 
+#hero-section span
+{
+  display: block;
+}
+
 main
 {
   padding-top: 133px;
