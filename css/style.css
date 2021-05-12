@@ -217,3 +217,41 @@ main
 {
   padding-top: 133px;
 }
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px)
+{
+  header
+  {
+    text-align: unset;
+  }
+
+  main
+  {
+    padding-top: 99px;
+  }
+
+  header
+  {
+    text-align: unset;
+    padding: 20px 0 13px;
+  }
+
+  nav
+  {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+  }
+
+  #about-page h3
+  {
+    margin-top: 0;
+  }
+
+  .col-md-6
+  {
+    width: 50%;
+  }
+}
