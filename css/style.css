@@ -236,6 +236,14 @@ main
 {
   padding-top: 133px;
 }
+
+#skills
+{
+  background-color: #c2e7ff;
+  padding: 2px 10px;
+  margin: 10px;
+}
+
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
