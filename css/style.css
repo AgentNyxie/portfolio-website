@@ -88,7 +88,8 @@ a:active
   color: rgba(0,159,253,0.6);
 }
 
-.button {
+.button
+{
   display: inline-block;
   background-color: rgba(0,159,253,1);
   color: #ffffff;
