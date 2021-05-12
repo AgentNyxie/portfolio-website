@@ -97,7 +97,9 @@ a:active
   padding: 10px;
   border-radius: 3px;
   border-bottom: 2px solid rgba(0,159,253,1);
-  transition: 0.2s opacity;
+  text-decoration: none;
+  transition-duration: 0.2s;
+  transition-property: opacity;
 }
 
 .button:hover
