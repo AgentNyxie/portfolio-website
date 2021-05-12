@@ -283,3 +283,19 @@ Large devices (1024px or larger)
     width: 40%;
   }
 }
+
+/* ==============================
+X-large devices (1440px or larger)
+================================= */
+@media only screen and (min-width: 1440px)
+{
+
+}
+
+/* ==============================
+Extra-large devices (1920px or larger)
+================================= */
+@media only screen and (min-width: 1920px)
+{
+
+}
