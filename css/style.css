@@ -14,8 +14,7 @@ Background Color (White): rgba(255,255,255,1);
 header
 {
   background-color: #c2e7ff;
-  text-align: center;
-  padding: 10px 0;
+  padding: 10px 0 4px;
   position: fixed;
   width: 100%;
   -webkit-box-shadow: 3px 3px 19px 0px rgba(50, 50, 50, 0.45);
@@ -184,24 +183,24 @@ a:active
 
 .logo
 {
-  max-width: 190px;
+  max-width: 150px;
 }
 
-nav
+.navtoggle li:not(:last-child)
 {
-  display: inline-block;
-  width: 100%;
+  display: none;
+}
+
+.navtoggle.responsive li
+{
+  display: block;
 }
 
 nav > ul
 {
   list-style-type: none;
   padding: 0;
-}
-
-nav > ul > li
-{
-  display: inline-block;
+  margin: 0;
 }
 
 nav > ul > li > a
@@ -237,7 +236,7 @@ nav > ul > li > a:active
 
 main
 {
-  padding-top: 133px;
+  padding-top: 51px;
 }
 
 #skills
@@ -250,16 +249,17 @@ main
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
-@media only screen and (min-width: 640px)
+@media only screen and (min-width: 641px)
 {
   header
   {
     text-align: unset;
+    padding: 10px 0 4px;
   }
 
-  main
+  nav > ul
   {
-    padding-top: 99px;
+    margin: 1em 0;
   }
 
   header
@@ -273,6 +273,21 @@ Medium devices (640px and larger)
     width: auto;
     float: right;
     margin-top: 4px;
+  }
+
+  .navtoggle li:not(:last-child)
+  {
+    display: inline-block;
+  }
+
+  .navtoggle li:last-child
+  {
+    display: none;
+  }
+
+  nav > ul > li
+  {
+    display: inline-block;
   }
 
   #about-page h3
@@ -289,6 +304,11 @@ Medium devices (640px and larger)
   {
     width: 50%;
     margin-top: -30px;
+  }
+
+  .logo
+  {
+    max-width: 190px;
   }
 }
 
@@ -395,4 +415,35 @@ Extra-large devices (1920px or larger)
   margin-left: auto;
   margin-right: auto;
   width: 80%;
+}
+
+.navtoggle, .navtoggle.responsive
+{
+  position: relative;
+}
+
+.navtoggle.responsive nav
+{
+  padding: 24px 0 0;
+}
+
+.navtoggle.responsive li
+{
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid rgba(4,67,137,1);
+}
+
+.navtoggle.responsive li:last-child
+{
+  padding: 0 0 10px;
+}
+
+.navtoggle li .icon
+{
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+  padding-right: 0;
 }
