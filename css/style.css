@@ -234,7 +234,7 @@ Medium devices (640px and larger)
 @media only screen and (min-width: 641px) {
   header {
     text-align: unset;
-    padding: 10px 0 4px;
+    padding: 20px 0 13px;
   }
 
   nav > ul {
@@ -274,6 +274,18 @@ Medium devices (640px and larger)
 
   .logo {
     max-width: 190px;
+  }
+
+  #about {
+    padding-top: 50px;
+  }
+
+  #hero-section {
+    padding-top: 50px;
+  }
+
+  #portfolio-piece {
+    padding-top: 50px;
   }
 }
 
