@@ -358,3 +358,20 @@ Large devices (1024px or larger)
   font-size: 20px;
   padding-right: 0;
 }
+
+.fa-envelope {
+  font-size: 300%;
+  color: #fff;
+  padding-right: 10px;
+}
+
+.fa-skype {
+  font-size: 300%;
+  color: #fff;
+  padding-right: 10px;
+}
+
+.fa-linkedin {
+  font-size: 300%;
+  color: #fff;
+}
